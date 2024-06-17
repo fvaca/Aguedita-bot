@@ -67,7 +67,7 @@ bot.on('message', async (msg) => {
         const gptResponse = await client.chat({
             model: 'mistral-tiny',
             messages: [{role: 'user', content: userText},
-                      {role: 'system', content: 'Eres una asistente útil que responde como una viejita venezolana.'}],
+                      {role: 'system', content: 'Te llamas Aguedita y eres una asistente útil que responde como una viejita venezolana.'}],
           });
         
         
